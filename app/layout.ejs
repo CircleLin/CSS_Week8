@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -56,8 +59,42 @@
 
     <%- contents %>
 
-    <footer class="footer">
-      
+    <footer class="footer bg-primary">
+      <div class="container pt-md-6 pt-5">
+        <div class="row justify-content-between align-items-center mb-md-6 mb-5">
+          <div class="footer-title col-lg-4 col-12 mb-2 mb-lg-0">
+            <h3 class="mb-0 fs-2 fw-normal text-white">現在訂閱，獲得課程優惠碼！</>
+          </div>
+          <div class="footer-subscribe col-lg-4 col-md-6 col-12">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text text-white bg-info">訂閱</span>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <hr class="bg-white mb-md-6 mb-5 mt-0">   
+      <div class="container pb-md-6 pb-5">
+        <div class="d-flex justify-content-between">
+          <div class="footer-nav">
+            <img height="24" class="mb-2 inline-block" src="./assets/images/DOYOGA-logo@2x.png" alt="logo">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-white">課程介紹</a></li>
+              <li class="mb-2"><a href="#" class="text-white">瑜珈空間</a></li>
+              <li class="mb-2 mb-md-0"><a href="#" class="text-white">當月課表</a></li>
+              <li class="d-block d-md-none"><p class="text-white">© 2021. All Rights Reserved.</p></li>
+            </ul>
+          </div>       
+          <p class="footer-copyright mb-0 text-white align-self-end d-none d-md-block">© 2021. All Rights Reserved.</p>       
+          <div class="footer-social">
+            <ul class="d-flex list-unstyled">
+              <li class="me-2"><a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a></li>
+              <li class="me-2"><a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a></li>
+              <li><a href="#" class="text-white"><i class="fab fa-line fa-lg"></i></a></li>
+            </ul>
+          </div>
+        </div>      
+      </div>
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
