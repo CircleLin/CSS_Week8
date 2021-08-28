@@ -1,0 +1,12 @@
+.schedule{
+    padding-top: 64;
+    padding-bottom: 104px;
+    @include media-breakpoint-only(md){
+        padding-top: 64px;
+        padding-bottom: 80px;
+      }
+      @include media-breakpoint-down(md){
+        padding-top: 48px;
+        padding-bottom: 88px;
+      }
+}
