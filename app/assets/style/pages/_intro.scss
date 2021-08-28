@@ -1,0 +1,38 @@
+.limited-Course{
+    &-card{
+        background-image: url('../../../assets/images/teach.jpeg');
+        background-position: center;
+        background-size: cover;
+        height: 341px;        
+    }
+    &-card-modal{      
+        height: 418px;
+        background-image: url('../../../assets/images/teach.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.intro-course{
+    &-card{
+        background-position: center;
+        background-size: cover;
+        height: 196px;
+    }
+
+    &-badge{
+        left:58px;
+    }
+}
+
+.teachers{
+   padding-bottom: 113px;
+   @include media-breakpoint-down(md){
+   padding-bottom: 80px;
+  }
+  &-card{
+    margin-top: -44px;
+    z-index: -10;
+    height: 418px;
+  }
+}
