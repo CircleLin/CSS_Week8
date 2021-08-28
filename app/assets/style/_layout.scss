@@ -2,3 +2,10 @@
     right: 0;
     top:30vh;
 }
+
+.navbar-btn{
+    border-radius: 16px;
+    &:hover{
+        color:#fff;
+    }
+}
