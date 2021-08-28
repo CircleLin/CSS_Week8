@@ -39,7 +39,7 @@
               <a class="nav-link" href="intro.html">課程介紹</a>
             </li>
             <li class="nav-item me-md-6">
-              <a class="nav-link" href="#">瑜珈空間</a>
+              <a class="nav-link" href="space.html">瑜珈空間</a>
             </li>           
             <li class="nav-item">
               <a class="nav-link" href="schedule.html">當月課表</a>
@@ -167,6 +167,22 @@
         }
       });
      
+      let recommendSwiper = new Swiper(".js-recommend",{
+        slidesPerView: 1,
+        spaceBetween: -30,
+        breakpoints: {
+          768 :{
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          992: {
+            slidesPerView: 4,
+            spaceBetween: -30,
+          }
+        }
+      });
+
+
     const elem = document.querySelector('input[name="datepicker"]');
 const datepicker = new Datepicker(elem, {
   buttonClass: 'btn primary',
