@@ -10,6 +10,10 @@
         background-image: url('../../../assets/images/teach.jpeg');
         background-position: center;
         background-size: cover;
+        @include media-breakpoint-down(md){
+            height: 165px;
+            width: 165px;
+           }
     }
 }
 
