@@ -1,5 +1,4 @@
-.hero{
-  background-image: url(../../../assets/images/banner.jpeg);
+.hero{  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,8 +34,7 @@
 }
 
 .teach{
-  &-card-lg{
-    background-image: url('../../../assets/images/teach.jpeg');
+  &-card-lg{    
     background-position: center;
     background-size: cover;
     height: 628px;
