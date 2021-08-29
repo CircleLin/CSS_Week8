@@ -1,5 +1,5 @@
 let swiper = new Swiper(".mySwiper", { 
-  
+  spaceBetween: 30,
   grid: {
     rows: 3,
     fill: 'row',
@@ -7,7 +7,7 @@ let swiper = new Swiper(".mySwiper", {
 breakpoints:{
   768: {
     slidesPerView: 2,
-    spaceBetween: 0,
+    spaceBetween: 30,
     grid: {
       rows: 2,
       fill: 'row',
@@ -18,7 +18,7 @@ breakpoints:{
     spaceBetween: 30,
     grid: {
       rows:2,
-      fill: 'column',
+      fill: 'row',
     },
   }
 }
