@@ -16012,7 +16012,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 }
 
 .hero {
-  background-image: url(../../../assets/images/banner.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16058,7 +16057,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 }
 
 .teach-card-lg {
-  background-image: url("../../../assets/images/teach.jpeg");
   background-position: center;
   background-size: cover;
   height: 628px;
@@ -16199,7 +16197,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 }
 
 .limited-Course-card {
-  background-image: url("../../../assets/images/teach.jpeg");
   background-position: center;
   background-size: cover;
   height: 341px;
@@ -16207,7 +16204,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 
 .limited-Course-card-modal {
   height: 418px;
-  background-image: url("../../../assets/images/teach.jpeg");
   background-position: center;
   background-size: cover;
 }
